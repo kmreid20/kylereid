@@ -1,0 +1,17 @@
+title: Kyle Reid
+description: Director, Business Operations @ Help Scout
+url: ""
+baseurl: ""
+
+# GitHub Pages
+remote_theme: null
+plugins: []
+
+# Build
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

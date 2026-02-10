@@ -1,0 +1,83 @@
+name: Kyle Reid
+title: Director, Business Operations
+company: Help Scout
+location: Greenville, SC
+email: kmreid20@gmail.com
+linkedin: https://www.linkedin.com/in/kylemreid
+
+tagline: >-
+  Director of Business Operations at Help Scout — 10+ years helping
+  early-stage, high-growth companies turn bottom-line data into
+  strategic paths forward.
+
+about:
+  - >-
+    A Business Operations professional with an extensive background in
+    financial and operational functions — from modeling and strategic
+    planning to system implementations. After earning a degree in Finance
+    from Bryant University, Kyle built a career across the SaaS industry,
+    holding roles in accounting, financial analytics, and FP&A before
+    growing into operations leadership.
+  - >-
+    At Help Scout since 2018, he's scaled from Accounting Manager to
+    Director of Business Operations, bridging the complexities of finance
+    with the execution of company-wide goals.
+
+quote: >-
+  Explaining the narrative behind the numbers is critical for setting
+  your partners up for success.
+
+experience:
+  - dates: Apr 2023 – Present
+    company: Help Scout
+    title: Director, Business Operations
+
+  - dates: Sep 2020 – Apr 2023
+    company: Help Scout
+    title: Finance Operations Manager
+
+  - dates: Oct 2019 – Sep 2020
+    company: Help Scout
+    title: Financial Analyst, FP&A
+
+  - dates: Feb 2018 – Oct 2019
+    company: Help Scout
+    title: Accounting Manager
+
+  - dates: Dec 2016 – Feb 2018
+    company: Arxan Technologies
+    title: Financial Analyst
+    detail: San Francisco Bay Area
+
+  - dates: Jan 2015 – Dec 2016
+    company: Apperian, Inc.
+    title: Accountant → Senior Accountant
+    detail: Boston, MA
+
+  - dates: May 2014 – Jan 2015
+    company: Wayfair
+    title: Accounting Analyst
+    detail: Boston, MA
+
+community:
+  - dates: Sep 2023 – Present
+    company: Operators Guild
+    title: Member
+    detail: >-
+      An invitation-only group of the world's top finance and operations
+      leaders in high-growth technology companies, sharing best practices
+      across chapters in major tech hubs.
+
+skills:
+  - Sales Planning
+  - Financial Planning
+  - Quarterly Reporting
+  - FP&A
+  - Strategic Planning
+  - SaaS Operations
+  - System Implementations
+  - Financial Modeling
+
+education:
+  school: Bryant University
+  degree: BS, Business Administration — Finance

@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+  <header>
+    <p class="kicker">{{ site.data.profile.location }}</p>
+    <h1>{{ site.data.profile.name }}</h1>
+    <p class="tagline">{{ site.data.profile.tagline }}</p>
+    <div class="header-links">
+      <a href="mailto:{{ site.data.profile.email }}">Email</a>
+      <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="animate-in">
+    <p class="section-label">About</p>
+    {% for paragraph in site.data.profile.about %}
+    <p class="about-text">{{ paragraph }}</p>
+    {% endfor %}
+    <div class="pullquote">{{ site.data.profile.quote }}</div>
+  </section>
+
+  <!-- Experience -->
+  <section class="animate-in">
+    <p class="section-label">Experience</p>
+    <div class="timeline">
+      {% for role in site.data.profile.experience %}
+      <div class="role">
+        <div class="role-dates">{{ role.dates }}</div>
+        <div>
+          <div class="role-company">{{ role.company }}</div>
+          <div class="role-title">{{ role.title }}</div>
+          {% if role.detail %}
+          <p class="role-detail">{{ role.detail }}</p>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section class="animate-in">
+    <p class="section-label">Community</p>
+    {% for item in site.data.profile.community %}
+    <div class="role">
+      <div class="role-dates">{{ item.dates }}</div>
+      <div>
+        <div class="role-company">{{ item.company }}</div>
+        <div class="role-title">{{ item.title }}</div>
+        {% if item.detail %}
+        <p class="role-detail">{{ item.detail }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <!-- Skills -->
+  <section class="animate-in">
+    <p class="section-label">Skills</p>
+    <div class="skills-grid">
+      {% for skill in site.data.profile.skills %}
+      <span class="skill-tag">{{ skill }}</span>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="animate-in">
+    <p class="section-label">Education</p>
+    <div class="edu-item">
+      <div class="edu-school">{{ site.data.profile.education.school }}</div>
+      <div class="edu-degree">{{ site.data.profile.education.degree }}</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Get in touch — <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></p>
+  </footer>
+
+</div>
